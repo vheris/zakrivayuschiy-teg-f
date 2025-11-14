@@ -13,4 +13,48 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--primary-font-family);
+  font-variation-settings: "wghе" var(--card-text-weight);
+  background-image: var(--first-stripes-gradient),
+  var(--second-stripes-gradient),
+  var(--third-stripes-gradient);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  font-family: var(--secondary-font-family);
+  background-color: white;
+  inline-size: var(--header-width);
+  block-size: var(--header-height);
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  text-transform: uppercase;
+}
+
+.header h1 {
+  font-size: 65px;
+}
+
+.header h2 {
+  font-size: 23px;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  gap: 50px;
+  inline-size: var(--header-width);
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid black;
 }
