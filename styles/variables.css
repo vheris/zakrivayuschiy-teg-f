@@ -5,6 +5,7 @@
     --secondary-font-family: 'PressStart', sans-serif;
     --card-title-weight: 715;
     --card-text-weight: 410;
+    --font-size: 18px;
     --first-stripes-gradient: repeating-linear-gradient(
     to right,
     #d3d3d3,
@@ -26,4 +27,19 @@
   );
   --header-width: clamp(375px, 282px + 29vw, 700px);
   --header-height: clamp(327px, 315px + 4vw, 368px);
+  --section-margin-top: 90px;
+  --header-title-size: 65px;
+  --header-subtitle-size: 23px;
+  --heart-contour: var(--black);
+  --animation-fill-color: var(--red);
+  --floppy-icon-width: 21px;
+}
+
+@media (width <= 765px) {
+  :root {
+    --section-margin-top: 100px;
+    --header-title-size: 49px;
+    --header-subtitle-size: 14px;
+    --floppy-icon-width: 28px;
+  }
 }

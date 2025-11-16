@@ -3,8 +3,9 @@
 @font-face {
     font-family: 'Inter';
     font-display: swap;
-    src: url(./Inter-Variable.woff2) format('woff2 supports variations');
-    font-weight: 400 900;
+    src: url(./Inter-Variable.woff2) format('woff2-variations'),
+    url(./Inter-Variable.woff2) format('woff2 supports variations');
+    font-weight: 400 410 715 785;
 }
 
 @font-face {
