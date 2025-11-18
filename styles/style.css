@@ -18,8 +18,7 @@
   font-weight: var(--card-text-weight);
   font-variation-settings: "wght" var(--card-text-weight);
   background-image: var(--first-stripes-gradient),
-  var(--second-stripes-gradient),
-  var(--third-stripes-gradient);
+    var(--second-stripes-gradient), var(--third-stripes-gradient);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -49,7 +48,7 @@
 
 .cards {
   display: grid;
-  justify-items: center; 
+  justify-items: center;
   gap: var(--cards-gap);
   margin-bottom: 100px;
 }
@@ -64,25 +63,22 @@
 }
 
 .bus_image::before {
-  content: '</HTML>';
+  content: "</HTML>";
   position: absolute;
   top: 25px;
   right: 25px;
   font-size: 14px;
   font-family: var(--secondary-font-family);
   font-weight: 400;
-  text-shadow:
-    0.3px 0 0 white, -0.3px 0 0 white,
-    0 0.3px 0 white, 0 -0.3px 0 white,
-    0.3px 0.3px 0 white, -0.3px -0.3px 0 white,
+  text-shadow: 0.3px 0 0 white, -0.3px 0 0 white, 0 0.3px 0 white,
+    0 -0.3px 0 white, 0.3px 0.3px 0 white, -0.3px -0.3px 0 white,
     0.3px -0.3px 0 white, -0.3px 0.3px 0 white;
   opacity: 0.7;
   mix-blend-mode: hard-light;
   z-index: 10;
 }
 
-
-@supports ( -webkit-text-stroke: 0.4px white ) or ( text-stroke: 0.4px white ) {
+@supports (-webkit-text-stroke: 0.4px white) or (text-stroke: 0.4px white) {
   .card::before {
     -webkit-text-stroke: 0.4px white;
     text-shadow: none;
@@ -143,7 +139,7 @@
 }
 
 .button__effect::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -220,7 +216,7 @@
 }
 
 .second_sprint_start img {
-  filter: hue-rotate(35deg)
+  filter: hue-rotate(35deg);
 }
 
 .second_sprint_end img {
@@ -243,7 +239,6 @@
   inline-size: 353px;
   opacity: 0;
   transition: transform 0.3s ease, opacity 0.3s ease;
-
 }
 
 .dialog__save[open] {
@@ -264,7 +259,7 @@
 }
 
 dialog::backdrop {
-  background: rgba(0,0,0,0.45);
+  background: rgba(0, 0, 0, 0.45);
 }
 
 .dialog__save div {
