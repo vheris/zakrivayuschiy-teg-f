@@ -16,7 +16,7 @@
   font-family: var(--primary-font-family);
   font-size: var(--font-size);
   font-weight: var(--card-text-weight);
-  font-variation-settings: "wghе" var(--card-text-weight);
+  font-variation-settings: "wght" var(--card-text-weight);
   background-image: var(--first-stripes-gradient),
   var(--second-stripes-gradient),
   var(--third-stripes-gradient);
@@ -38,8 +38,6 @@
   text-transform: uppercase;
   outline: 2px solid black;
 }
-
-
 
 .header h1 {
   font-size: var(--header-title-size);
@@ -95,7 +93,7 @@
   margin: 5px 10px;
   font-family: var(--primary-font-family);
   font-size: var(--font-size);
-  font-variation-settings: "wghе" var(--card-title-weight);
+  font-variation-settings: "wght" var(--card-title-weight);
 }
 
 .bus_image {
