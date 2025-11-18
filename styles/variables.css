@@ -27,19 +27,24 @@
   );
   --header-width: clamp(375px, 282px + 29vw, 700px);
   --header-height: clamp(327px, 315px + 4vw, 368px);
+
+  --main-header-padding: 130px 122.5px;
+  --main-content-width: clamp(375px, 100%, 700px);
   --section-margin-top: 90px;
   --header-title-size: 65px;
   --header-subtitle-size: 23px;
-  --heart-contour: var(--black);
-  --animation-fill-color: var(--red);
+  --heart-contour: #000;
+  --accent-color: white;
+  --animation-fill-color: #FF0000;
   --floppy-icon-width: 21px;
+  --cards-gap: 50px;
+  --background-color: #FFF;
 }
 
-@media (width <= 765px) {
+@media (width <= 375px) {
   :root {
-    --section-margin-top: 100px;
+    --main-header-padding: 122px 16px ;
     --header-title-size: 49px;
     --header-subtitle-size: 14px;
-    --floppy-icon-width: 28px;
   }
 }
